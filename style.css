@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 70px 350px 1000px 1200px 250px 70px;
+}
+.flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+}
+.whiteright p {
+  font-size: 1.2rem;
+  font-family: roboto;
+}
+.whiteright img {
+  width: 30px;
+  border-radius: 50%;
+}
+.whiteright {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.whiteleft {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.whiteleft p {
+  font-size: 1.5rem;
+  font-family: roboto;
+}
+.whiteleft img {
+  width: 100px;
+}
+.orange a {
+  color: inherit;
+}
+.orange {
+  padding: 15px;
+  background-color: #ff7700;
+  color: white;
+  font-family: roboto;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.right {
+  background-image: url(/images/hero_academy.jpg);
+}
+.left {
+  padding: 50px 100px;
+}
+.left h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: roboto;
+}
+.left p {
+  font-size: 1.2rem;
+  padding: 20px 0 20px 0px;
+  line-height: 1.5;
+
+  font-family: roboto;
+}
+.fourtwo {
+  background-color: #4285f4;
+  padding: 10px 130px;
+}
+.fourtwowhite {
+  font-size: 2rem;
+  font-family: roboto;
+  margin: 30px 0;
+  color: white;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #4285f4;
+  grid-template-rows: 400px 400px;
+  gap: 20px;
+}
+.card-container img {
+  width: 30px;
+}
+.card1 {
+  padding: 20px;
+  background-color: white;
+}
+.card1 h2 {
+  margin: 20px 0;
+  font-family: roboto;
+  font-size: 1.3rem;
+}
+.card1 p {
+  font-size: 1rem;
+  font-family: roboto;
+  line-height: 1.5;
+}
+.fourthree {
+  padding: 20px 130px;
+}
+.fourthree h1 {
+  font-size: 1.8rem;
+  font-family: roboto;
+  margin: 20px 0;
+  font-weight: normal;
+}
+.flex {
+  display: flex;
+  margin: 30px 0;
+  border: 2px solid rgb(218, 205, 205);
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.35);
+  background-color: #f2f2f2;
+}
+.flex img {
+  width: 200px;
+  height: 200px;
+}
+.flex h2 {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid black;
+  font-weight: normal;
+  font-family: roboto;
+}
+.flex p {
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: roboto;
+}
+.mini h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 30px 0;
+  font-family: roboto;
+}
+.mini p {
+  font-size: 1rem;
+  font-family: roboto;
+  padding-bottom: 10px;
+}
+.twofour {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+.twofour img {
+  width: 50px;
+}
+.card2 {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.45);
+}
+.last {
+  background-color: #f2f2f2;
+}
+.last h2 {
+  font-size: 1.3rem;
+  padding: 10px 0px;
+  border-bottom: 2px solid black;
+  padding: 30px 130px;
+  font-family: roboto;
+  font-weight: normal;
+}
+.fiveone {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 40px 180px;
+}
+.card3 {
+  text-align: center;
+}
+.fiveone img {
+  width: 50px;
+}
+.fiveone p {
+  padding: 2px 0;
+  font-size: 1.2rem;
+  font-family: roboto;
+}
+footer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer nav ul {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+}
+footer nav ul li {
+  list-style: none;
+  font-size: 1rem;
+  font-family: roboto;
+}
